@@ -1,0 +1,9 @@
+include module 				# Импорт модуля
+
+func main(a, b) { 			# Функция
+	println(a + b);
+}
+
+# это комментарий
+
+println("hello")			# Вывод
