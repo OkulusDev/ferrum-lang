@@ -2,6 +2,17 @@ include module 				# Импорт модуля
 
 func main(a, b) { 			# Функция
 	println(a + b);
+
+	while (True) {
+		println("hello");
+		stop; 				# break
+	}
+
+	for (i in range(100)) {
+		if (i == 10) {
+			next;			# continue
+		}
+	}
 }
 
 # это комментарий
